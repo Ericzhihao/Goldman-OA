@@ -41,8 +41,23 @@ public class Main {
 //        String compressedString = bsc.compressString(input);
 //        System.out.println(compressedString);
 
-         numberStirng ns = new numberStirng();
-         String s = "2101";
-         System.out.println(ns.numDecodings(s));
+//         numberStirng ns = new numberStirng();
+//         String s = "2101";
+//         System.out.println(ns.numDecodings(s));
+
+//          AnagramFinder af = new AnagramFinder();
+//          String[] A = {"bat", "tab", "cat", "act", "tac"};
+//          String[] B = {"tac", "bat"};
+//          List<List<String>> result = af.findAnagrams(A, B);
+//          System.out.println(result);
+
+//            Product p = new Product();
+//            String[] operations = {"push", "push", "push", "pop"};
+//            int[] x = {1, 2, 3, 1};
+//
+//            List<Long> result = p.maxMin(operations, x);
+//            System.out.println(result); // Output: [1, 2, 3, 6]
+
+             
     }
 }
