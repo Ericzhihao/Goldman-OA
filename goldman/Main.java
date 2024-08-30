@@ -1,5 +1,6 @@
 package goldman;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -58,6 +59,31 @@ public class Main {
 //            List<Long> result = p.maxMin(operations, x);
 //            System.out.println(result); // Output: [1, 2, 3, 6]
 
-             
+//            Encircular enc = new Encircular();
+//            String[] commandsToTest = {"G", "L", "RGRG"};
+//            List<String> results = enc.doesCircleExist(commandsToTest);
+//
+//        for (String result : results) {
+//            System.out.println(result);
+//        }
+        int N = 26;
+        int[][] queries = {
+                {1, 2, 1009}, // First query: l = 1, r = 2, m = 1009
+                {3, 3, 5}     // Second query: l = 3, r = 3, m = 5
+        };
+
+        // Construct the goodArray using the first function
+        GoodArray ga = new GoodArray();
+        ArrayList<Integer> goodArray = ga.constructGoodArray(N);
+
+        // Process each query using the second function
+        for (int[] query : queries) {
+            int l = query[0];
+            int r = query[1];
+            int m = query[2];
+
+            int result = ga.processQuery(goodArray, l, r, m);
+            System.out.println(result);
+        }
     }
 }
