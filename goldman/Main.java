@@ -66,24 +66,34 @@ public class Main {
 //        for (String result : results) {
 //            System.out.println(result);
 //        }
-        int N = 26;
-        int[][] queries = {
-                {1, 2, 1009}, // First query: l = 1, r = 2, m = 1009
-                {3, 3, 5}     // Second query: l = 3, r = 3, m = 5
-        };
+//        int N = 26;
+//        int[][] queries = {
+//                {1, 2, 1009}, // First query: l = 1, r = 2, m = 1009
+//                {3, 3, 5}     // Second query: l = 3, r = 3, m = 5
+//        };
+//
+//        // Construct the goodArray using the first function
+//        GoodArray ga = new GoodArray();
+//        ArrayList<Integer> goodArray = ga.constructGoodArray(N);
+//
+//        // Process each query using the second function
+//        for (int[] query : queries) {
+//            int l = query[0];
+//            int r = query[1];
+//            int m = query[2];
+//
+//            int result = ga.processQuery(goodArray, l, r, m);
+//            System.out.println(result);
+//        }
 
-        // Construct the goodArray using the first function
-        GoodArray ga = new GoodArray();
-        ArrayList<Integer> goodArray = ga.constructGoodArray(N);
+//        Music mc = new Music();
+//        int[] songs = {40, 20, 60, 0};
+//        int result = mc.countPairs(songs);
+//        System.out.println("Number of valid pairs: " + result);
 
-        // Process each query using the second function
-        for (int[] query : queries) {
-            int l = query[0];
-            int r = query[1];
-            int m = query[2];
+        minVal mv = new minVal();
+        int[] arr = { -5, 4, -2, 3, 1, -1, -6, -1, 0, 5};
+        System.out.println(mv.minStart(arr));
 
-            int result = ga.processQuery(goodArray, l, r, m);
-            System.out.println(result);
-        }
     }
 }
