@@ -15,7 +15,7 @@ public class Main {
 
 //        alternate al = new alternate();
 //        int n = 10;
-//        List<List<Integer>> result = al.alternatingParityPermutation(n);
+//        List<List<Integer>> result = al.alternatingParityPermutations(10);
 //
 //        for (List<Integer> permutation : result) {
 //            System.out.println(permutation);
@@ -91,9 +91,25 @@ public class Main {
 //        int result = mc.countPairs(songs);
 //        System.out.println("Number of valid pairs: " + result);
 
-        minVal mv = new minVal();
-        int[] arr = { -5, 4, -2, 3, 1, -1, -6, -1, 0, 5};
-        System.out.println(mv.minStart(arr));
+//        minVal mv = new minVal();
+//        int[] arr = { -5, 4, -2, 3, 1, -1, -6, -1, 0, 5};
+//        System.out.println(mv.minStart(arr));
 
+//        Encryption ep = new Encryption();
+//        int instructionCount = 200;
+//        int validityPeriod = 2000;
+//        int[] keys = {2, 2, 4, 4};
+//
+//        int[] result = ep.encryptionValidity(instructionCount, validityPeriod, keys);
+//        System.out.println(result[0]);  // 输出: 0
+//        System.out.println(result[1]);  // 输出: 200000
+
+//        mazeSolver mz = new mazeSolver();
+//        int[][] maze = {
+//                {0, 0},
+//                {1, 0}
+//        };
+//        int k = 2;
+//        System.out.println(mz.getMinimumMoves(maze, k));
     }
 }
